@@ -1,5 +1,6 @@
 package edu.cityech.cst.review.stock;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -9,13 +10,18 @@ import edu.cityech.cst.review.model.Stock;
 
 public class StockDAO {
 
+	
+	public List<Stock> findBy(Map<String, String> map) {
+
+		List<Stock> sectors = new ArrayList<Stock>();
+		return sectors;
+		
+	}
+
+
 	public List<Stock> findAll() {
-		
-		
-//		List<Stock> bankStocks =
-//				Arrays.asList("CM:36.13","C:77.10","HSBC:38.45","RY:79.26","TD:55.63");
-		
-		return this.findAll(); 
+		Map<String, String> map = new HashMap<>();
+		return this.findBy(map);
 	}
 
 }

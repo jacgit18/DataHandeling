@@ -5,6 +5,7 @@ public class Stock implements Comparable<Stock> {
 	private String symbol;
 	private float price;
 	
+	public Stock() {}
 	
 	public Stock(String symbol, float price) {
 		super();

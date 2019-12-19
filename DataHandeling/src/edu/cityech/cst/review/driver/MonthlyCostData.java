@@ -29,6 +29,7 @@ public class MonthlyCostData {
 		StockDAO dao = new StockDAO();
 		List<Stock> bankStocks = dao.findAll();
 		
+		
 		bankStocks.forEach(System.out::println);
 		
 		System.out.println("-----------------------------");
